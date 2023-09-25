@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.landing{
+    background-image: url('../media/pizza1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+header a{
+    text-decoration: none;
+    color:red;
+    min-width: 120px;
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-right: 1em;
+    
+}
+header{
+    display: flex;
+    padding: 1em;
+    flex-wrap: wrap;
+    row-gap: 1em;
+
+}
+#logo{
+    flex:4;
+    font-size: 2em;
+}
+nav{
+    flex:3;
+    display: flex;
+    align-items: center;
+    
+}
+nav a{
+    flex: 1;
+
+}
+nav a:hover{
+    color: #34ffd0;
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: center;
+    padding-top: 100px;
+   
+   
+
+}
+.head{
+    color:#dafa4c;
+    font-size: 2.6em;
+    font-weight: bolder;
+    text-align: center;
+}
+.head2{
+    color: #dafa4c;
+    text-align: center;
+    font-size: 1.5em;
+}
+.head3{
+    color: #a4aa89;
+    text-align: center;}
+.maintext div{
+      margin-top: 1em;
+}
+.maintext button{
+   
+   width: 20vh;
+    margin-top: 2em;
+    border-radius: 15px;
+    padding: .7em;
+    background-color: red;
+   color: white;
+   border: 2px solid red;
+   font-size: 1em;
+   margin-left: 45%;
+   display: flex;
+   justify-content: center;
+ 
+
+}
+.menu{
+    display: grid;
+    background: linear-gradient(to right,#3e3838,rgb(133, 4, 4));
+    color: white;
+    grid-template-columns: 1fr 1fr;
+}
+.menu th{
+    color:#00f7ff ;
+    font-size: 20px;
+
+}
+#menuheading{
+    color:yellow;
+    background: linear-gradient(to right,#3e3838,rgb(133, 4, 4));
+  font-size: 35px;
+  padding-top: 10px;
+    margin:0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+   
+}
+#location{
+    color:yellow;
+    background: linear-gradient(to right,#3e3838,rgb(133, 4, 4));
+    font-size: 35px;
+  padding-top: 8em;
+    margin:0;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+}
+
+table{
+    width: 100%;
+    padding: 1em;
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+.menu td:nth-child(1){
+    justify-self:left;
+    flex:1;
+}
+.menu td:nth-child(2){
+    justify-self:left;
+}
+.location{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: linear-gradient(to right,#3e3838,rgb(133, 4, 4));
+    text-align: center;
+    padding-bottom: 5em;
+    font-size: 20px;
+    
+
+}
+.location h3{
+    color: #00f7ff;
+      display: flex;
+   justify-content: center;
+   margin-top: 2em;
+   font-size: 35px;
+  
+   
+}
+
+ footer{
+    background-color: rgb(86, 73, 73);
+    color:white;
+    padding: 3px;
+    text-align: left;
+ }
+header h2 i,nav a i{
+    margin-right: .5em;
+}
+button:active{
+    background-color: rgb(238, 64, 64);
+}
+script {
+    color: red;
+
+}
